@@ -1,0 +1,10 @@
+System 4 required orchestration suite (28 core tests across all four user stories).
+
+Selection: all tests in `test_us01_tiered_state.py`, `test_us02_invocation_pipeline.py`, and `test_us04_fork_scratchpad.py`; all non-truth-table tests in `test_us03_crash_recovery.py`; and truth-table case `[1-False-resume]`.
+
+============================= test session starts =============================
+collected 28 items
+...
+============================== 28 passed in 1.11s ==============================
+
+The complete 33-test output is retained in `tests.txt` as supplemental evidence.

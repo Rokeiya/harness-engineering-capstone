@@ -1,0 +1,10 @@
+Required all-systems verification
+
+System 1 claims loop: 29 passed (`system_1_claims_loop/tests.txt`)
+System 2 context strategy: 17 passed (`system_2_context_strategy/tests_required.txt`)
+System 3 Claude Code configuration: 35 passed (`system_3_claude_config/tests.txt`)
+System 4 orchestration: 28 passed (`system_4_orchestration/tests_required.txt`)
+
+Supplemental verification: System 1 complete suite, including the new fallback regression, passed 30 tests (`system_1_claims_loop/tests_all.txt`). System 4's complete suite passed 33 tests (`system_4_orchestration/tests.txt`).
+
+System 2's submitted Linux/Python 3.13 full-suite log records 30 passed (`system_2_context_strategy/tests.txt`). The current Windows/Python 3.14 recheck is 28 passed, 2 skipped (`system_2_context_strategy/tests_recheck.txt`); both skips require generated run artifacts, and rebuilding them requires Anthropic API calls unavailable in this environment. The required 17-test System 2 suite passed without skips.

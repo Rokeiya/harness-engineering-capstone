@@ -1,0 +1,5 @@
+System 2 full-suite recheck in the current Windows/Python 3.14 environment.
+
+Result: 28 passed, 2 skipped.
+
+Both skips are in `tests/test_antipatterns.py` and require generated `runs/` artifacts (`context.md` and `budget.json`). The project build uses Anthropic calls for case-fact extraction and resolved-segment compression; `ANTHROPIC_API_KEY` is not configured here. The separate required 17-test suite passed with no skips; see `tests_required.txt`.

@@ -1,0 +1,10 @@
+System 2 required context-strategy suite (17 core tests).
+
+Command: `pytest -v tests/test_assemble.py tests/test_case_facts.py tests/test_compressor.py tests/test_pruner.py tests/test_transcript.py::test_transcript_loader_turn_count`
+
+============================= test session starts =============================
+collected 17 items
+...
+============================== 17 passed in 1.00s ==============================
+
+The complete 30-test output is retained in `tests.txt` as supplemental evidence.

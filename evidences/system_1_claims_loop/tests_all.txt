@@ -1,0 +1,5 @@
+System 1 complete suite, including the new missing-terminal regression test.
+
+Command: `python -m pytest -q tests`
+
+30 passed.
